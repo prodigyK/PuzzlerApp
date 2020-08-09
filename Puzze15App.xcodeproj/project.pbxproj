@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2B929624DEFD8B009E703D /* PickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B929524DEFD8B009E703D /* PickerData.swift */; };
+		1E2B929824E03FA4009E703D /* ChangeGamePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B929724E03FA4009E703D /* ChangeGamePickerView.swift */; };
+		1E2B929A24E043A2009E703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B929924E043A2009E703D /* Main.storyboard */; };
 		1EBBC02924DC9E9B001BE860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC02824DC9E9B001BE860 /* AppDelegate.swift */; };
 		1EBBC02B24DC9E9B001BE860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC02A24DC9E9B001BE860 /* SceneDelegate.swift */; };
-		1EBBC02D24DC9E9B001BE860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC02C24DC9E9B001BE860 /* ViewController.swift */; };
-		1EBBC03024DC9E9B001BE860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBBC02E24DC9E9B001BE860 /* Main.storyboard */; };
 		1EBBC03224DC9E9C001BE860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBBC03124DC9E9C001BE860 /* Assets.xcassets */; };
 		1EBBC03524DC9E9C001BE860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBBC03324DC9E9C001BE860 /* LaunchScreen.storyboard */; };
+		1EBBC03D24DCA602001BE860 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC03C24DCA602001BE860 /* MainViewController.swift */; };
+		1EBBC03F24DCA66A001BE860 /* PuzzleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC03E24DCA66A001BE860 /* PuzzleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2B929524DEFD8B009E703D /* PickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerData.swift; sourceTree = "<group>"; };
+		1E2B929724E03FA4009E703D /* ChangeGamePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeGamePickerView.swift; sourceTree = "<group>"; };
+		1E2B929924E043A2009E703D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
 		1EBBC02524DC9E9B001BE860 /* Puzze15App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzze15App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBBC02824DC9E9B001BE860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBBC02A24DC9E9B001BE860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EBBC02C24DC9E9B001BE860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EBBC02F24DC9E9B001BE860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EBBC03124DC9E9C001BE860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EBBC03424DC9E9C001BE860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EBBC03624DC9E9C001BE860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBBC03C24DCA602001BE860 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1EBBC03E24DCA66A001BE860 /* PuzzleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +63,14 @@
 			isa = PBXGroup;
 			children = (
 				1EBBC02824DC9E9B001BE860 /* AppDelegate.swift */,
+				1E2B929724E03FA4009E703D /* ChangeGamePickerView.swift */,
 				1EBBC02A24DC9E9B001BE860 /* SceneDelegate.swift */,
-				1EBBC02C24DC9E9B001BE860 /* ViewController.swift */,
-				1EBBC02E24DC9E9B001BE860 /* Main.storyboard */,
-				1EBBC03124DC9E9C001BE860 /* Assets.xcassets */,
+				1EBBC03C24DCA602001BE860 /* MainViewController.swift */,
+				1EBBC03E24DCA66A001BE860 /* PuzzleManager.swift */,
+				1E2B929524DEFD8B009E703D /* PickerData.swift */,
+				1E2B929924E043A2009E703D /* Main.storyboard */,
 				1EBBC03324DC9E9C001BE860 /* LaunchScreen.storyboard */,
+				1EBBC03124DC9E9C001BE860 /* Assets.xcassets */,
 				1EBBC03624DC9E9C001BE860 /* Info.plist */,
 			);
 			path = Puzze15App;
@@ -125,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2B929A24E043A2009E703D /* Main.storyboard in Resources */,
 				1EBBC03524DC9E9C001BE860 /* LaunchScreen.storyboard in Resources */,
 				1EBBC03224DC9E9C001BE860 /* Assets.xcassets in Resources */,
-				1EBBC03024DC9E9B001BE860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +147,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EBBC02D24DC9E9B001BE860 /* ViewController.swift in Sources */,
 				1EBBC02924DC9E9B001BE860 /* AppDelegate.swift in Sources */,
+				1E2B929624DEFD8B009E703D /* PickerData.swift in Sources */,
+				1EBBC03F24DCA66A001BE860 /* PuzzleManager.swift in Sources */,
 				1EBBC02B24DC9E9B001BE860 /* SceneDelegate.swift in Sources */,
+				1E2B929824E03FA4009E703D /* ChangeGamePickerView.swift in Sources */,
+				1EBBC03D24DCA602001BE860 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1EBBC02E24DC9E9B001BE860 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EBBC02F24DC9E9B001BE860 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1EBBC03324DC9E9C001BE860 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WRFMAJ9PY;
 				INFOPLIST_FILE = Puzze15App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3WRFMAJ9PY;
 				INFOPLIST_FILE = Puzze15App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
