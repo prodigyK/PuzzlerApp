@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E2B929624DEFD8B009E703D /* PickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B929524DEFD8B009E703D /* PickerData.swift */; };
 		1E2B929824E03FA4009E703D /* ChangeGamePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B929724E03FA4009E703D /* ChangeGamePickerView.swift */; };
-		1E2B929A24E043A2009E703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B929924E043A2009E703D /* Main.storyboard */; };
+		1E2B92A024E34908009E703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2B929E24E34908009E703D /* Main.storyboard */; };
 		1EBBC02924DC9E9B001BE860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC02824DC9E9B001BE860 /* AppDelegate.swift */; };
 		1EBBC02B24DC9E9B001BE860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBBC02A24DC9E9B001BE860 /* SceneDelegate.swift */; };
 		1EBBC03224DC9E9C001BE860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBBC03124DC9E9C001BE860 /* Assets.xcassets */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		1E2B929524DEFD8B009E703D /* PickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerData.swift; sourceTree = "<group>"; };
 		1E2B929724E03FA4009E703D /* ChangeGamePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeGamePickerView.swift; sourceTree = "<group>"; };
-		1E2B929924E043A2009E703D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Main.storyboard"; sourceTree = "<group>"; };
+		1E2B929F24E34908009E703D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EBBC02524DC9E9B001BE860 /* Puzze15App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzze15App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBBC02824DC9E9B001BE860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EBBC02A24DC9E9B001BE860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 				1EBBC03C24DCA602001BE860 /* MainViewController.swift */,
 				1EBBC03E24DCA66A001BE860 /* PuzzleManager.swift */,
 				1E2B929524DEFD8B009E703D /* PickerData.swift */,
-				1E2B929924E043A2009E703D /* Main.storyboard */,
 				1EBBC03324DC9E9C001BE860 /* LaunchScreen.storyboard */,
+				1E2B929E24E34908009E703D /* Main.storyboard */,
 				1EBBC03124DC9E9C001BE860 /* Assets.xcassets */,
 				1EBBC03624DC9E9C001BE860 /* Info.plist */,
 			);
@@ -134,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2B929A24E043A2009E703D /* Main.storyboard in Resources */,
+				1E2B92A024E34908009E703D /* Main.storyboard in Resources */,
 				1EBBC03524DC9E9C001BE860 /* LaunchScreen.storyboard in Resources */,
 				1EBBC03224DC9E9C001BE860 /* Assets.xcassets in Resources */,
 			);
@@ -159,6 +159,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1E2B929E24E34908009E703D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2B929F24E34908009E703D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		1EBBC03324DC9E9C001BE860 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

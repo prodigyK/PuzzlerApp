@@ -50,7 +50,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="New game">
                                                     <attributes>
-                                                        <font key="NSFont" size="18" name="PTSans-Regular"/>
+                                                        <font key="NSFont" size="18" name="GillSans"/>
                                                         <font key="NSOriginalFont" size="18" name="PTSans-Regular"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
@@ -71,7 +71,8 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Shuffle">
                                                     <attributes>
-                                                        <font key="NSFont" size="18" name="PTSans-Regular"/>
+                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <font key="NSFont" size="18" name="GillSans"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -94,7 +95,7 @@
                                                 <fragment content=" Stats">
                                                     <attributes>
                                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                        <font key="NSFont" size="18" name="PTSans-Regular"/>
+                                                        <font key="NSFont" size="18" name="GillSans"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -129,7 +130,7 @@
                                         <fragment content=" Change game">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
+                                                <font key="NSFont" size="18" name="GillSans"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -153,7 +154,7 @@
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3G4-74-E3a">
                                                                 <rect key="frame" x="0.0" y="0.0" width="146" height="23.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="19"/>
                                                                 <color key="textColor" red="0.47971526015228427" green="0.30826595284475555" blue="0.11429388288214876" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -168,7 +169,7 @@
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f28-k1-HNj">
                                                                         <rect key="frame" x="73" y="0.0" width="73" height="23.333333333333332"/>
-                                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
                                                                         <color key="textColor" red="0.44179439539999998" green="0.2649888098" blue="0.039098791780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -198,7 +199,7 @@
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j14-Kx-iUY">
                                                                 <rect key="frame" x="0.0" y="0.0" width="146" height="23.333333333333332"/>
-                                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
+                                                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="19"/>
                                                                 <color key="textColor" red="0.44179439539999998" green="0.2649888098" blue="0.039098791780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
@@ -213,7 +214,7 @@
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaa-5s-6fu">
                                                                         <rect key="frame" x="73" y="0.0" width="73" height="23.333333333333332"/>
-                                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                                        <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="17"/>
                                                                         <color key="textColor" red="0.44179439539999998" green="0.2649888098" blue="0.039098791780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -262,7 +263,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puzzler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0q-jB-R45">
                                 <rect key="frame" x="16" y="60.000000000000007" width="343" height="69.666666666666686"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="78"/>
-                                <color key="textColor" red="0.97586089372634888" green="0.45004844665527344" blue="0.042916983366012573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
